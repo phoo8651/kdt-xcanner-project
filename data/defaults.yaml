@@ -1,0 +1,8 @@
+gui_profile: default
+scan_template: quick
+output_dir: result
+capture_dir: result
+
+fingerprints:
+  p0f: data/fingerprints/p0f.fp
+  nmap: data/fingerprints/nmap-os-db

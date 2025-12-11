@@ -1,0 +1,7 @@
+scapy
+dnslib
+PyYAML
+PySide6
+netifaces
+reportlab
+pywin32>=306; sys_platform == "win32"

@@ -1,0 +1,76 @@
+http:
+  - pattern: "(?i)server:.*nginx"
+  - pattern: "(?i)server:.*apache"
+  - pattern: "(?i)http/1\\.[01]"
+  - pattern: "(?i)http/2"
+
+https:
+  - pattern: "(?i)tls"
+  - pattern: "(?i)ssl"
+  - pattern: "(?i)https"
+
+ssh:
+  - pattern: "(?i)^ssh-"
+  - pattern: "(?i)openssh"
+
+ftp:
+  - pattern: "(?i)^220.*ftp"
+  - pattern: "(?i)filezilla"
+  - pattern: "(?i)vsftpd"
+
+smtp:
+  - pattern: "(?i)^220.*smtp"
+  - pattern: "(?i)postfix"
+  - pattern: "(?i)exim"
+  - pattern: "(?i)sendmail"
+
+imap:
+  - pattern: "(?i)^\\* ok.*imap"
+  - pattern: "(?i)dovecot"
+  - pattern: "(?i)courier"
+
+pop3:
+  - pattern: "(?i)^\\+ok.*pop3"
+
+mysql:
+  - pattern: "(?i)mysql"
+  - pattern: "(?i)mariadb"
+
+postgresql:
+  - pattern: "(?i)postgresql"
+  - pattern: "(?i)postgres"
+
+mssql:
+  - pattern: "(?i)microsoft sql server"
+  - pattern: "(?i)ms-sql"
+
+redis:
+  - pattern: "(?i)redis"
+
+mongodb:
+  - pattern: "(?i)mongodb"
+
+dns:
+  - pattern: "(?i)bind"
+  - pattern: "(?i)named"
+  - pattern: "(?i)powerdns"
+
+snmp:
+  - pattern: "(?i)snmp"
+
+rdp:
+  - pattern: "(?i)rdp"
+  - pattern: "(?i)remote desktop"
+
+telnet:
+  - pattern: "(?i)^\\xff\\xfb" # IAC negotiation
+  - pattern: "(?i)telnet"
+
+ldap:
+  - pattern: "(?i)ldap"
+
+ntp:
+  - pattern: "(?i)ntp"
+
+irc:
+  - pattern: "(?i)^:[^ ]+ 001 .* :welcome to the internet relay chat"
